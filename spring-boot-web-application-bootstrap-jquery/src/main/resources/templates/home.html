@@ -11,14 +11,26 @@
 		<div>
 			<input type="text" class="form-control" id="movieName"
 				aria-describedby="emailHelp" placeholder="Search For Movie">
+			<br />	
 			<button type="button" onclick="homePage.searchMovie();" class="btn btn-info" id="btnGen">Search</button>
+			<br />
+			<p id="countText">Recommended Movies to users</p> 
+			<br />
 		</div>
 		<div class="row" id="contentPanel"></div>
+		<br/>
+		
+		<p id="ratingText"></p> 
+		
+		
+		
 		<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
 		<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="js/home.js"></script>
 		<script src="js/utils.js"></script>
-
+	<script>
+		 homePage.getsearchcount();
+		</script>
 	</div>
 </body>
 </html>

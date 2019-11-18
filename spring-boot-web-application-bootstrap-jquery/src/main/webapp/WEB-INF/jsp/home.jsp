@@ -12,6 +12,9 @@
 			<input type="text" class="form-control" id="movieName"
 				aria-describedby="emailHelp" placeholder="Search For Movie">
 			<button type="button" onclick="homePage.searchMovie();" class="btn btn-info" id="btnGen">Search</button>
+			<br />
+			<h1 class="section-title h1">Recommended movies to users</h1> 
+			<br />
 		</div>
 		<div class="row" id="contentPanel"></div>
 		<script src="webjars/jquery/1.9.1/jquery.min.js"></script>

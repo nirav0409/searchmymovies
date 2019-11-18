@@ -32,7 +32,7 @@ public class MovieSearchService {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-          System.out.print("output"+ outputJson);
+          System.out.println("output"+ outputJson);
 
 		return outputJson;
 	}

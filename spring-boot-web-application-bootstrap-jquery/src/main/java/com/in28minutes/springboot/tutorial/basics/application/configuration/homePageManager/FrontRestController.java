@@ -12,4 +12,9 @@ public class FrontRestController {
 		return "i got you finally";
 	}
 	
+	@RequestMapping("/getSearchCount")
+	public String getSearchCount() {
+		return "{\"count\":\""+homePageController.count+"\"}";
+	}
+	
 }
